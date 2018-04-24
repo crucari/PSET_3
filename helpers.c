@@ -19,7 +19,7 @@
 int duration(string fraction)  //use atoi to convert this string to an interger
 {     int nume =  atoi(fraction[0]);  //converts the numerator(initially a string) to an interger(using atoi)
 
-       int denom = atoi(fraction[1]);    //converts the denomenator(initially a string) to an interger(using atoi)
+       int denom = atoi(fraction[2]);    //converts the denomenator(initially a string) to an interger(using atoi)
 
        int commonDenom = 8; //use a common denomenator to convert the initial fraction into a fraction of eigths
 
@@ -27,6 +27,10 @@ int duration(string fraction)  //use atoi to convert this string to an interger
 
 
 printf(%n, eights); //prints number of eigths
+
+return eights;
+
+}
 
 // Calculates frequency (in Hz) of a note
 int frequency(string note)
