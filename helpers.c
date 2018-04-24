@@ -41,5 +41,22 @@ int frequency(string note)
 // Determines whether a string represents a rest
 bool is_rest(string s)
 {
-    // TODO
+
+// 1) Find a way to symbolize an empty line
+// 2) If s represents a rest, return true
+// 3) Otherwise, if it doesn't return false
+
+{
+    emptyString = " ";  //represents/defintes what a rest is
+
+     if (strcmp (emptyString, s) == 0);   //if the string is empty
+
+{
+       return true;        //return true if the string is empty
+}
+
+else
+
+{
+       return false;   //return false if the string is not empty
 }
