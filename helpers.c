@@ -60,3 +60,5 @@ else
 {
        return false;   //return false if the string is not empty
 }
+
+//easy to follow your code for is_rest and duration. Is frequency done somewhere else? //
